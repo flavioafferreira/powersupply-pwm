@@ -1,4 +1,4 @@
-This project implements a specialized power supply. It accepts either AC mains or DC input, rectifies it to a DC bus, and generates a square-wave output derived from that bus (approximately equal to the bus/rectified voltage). The output frequency is firmware-controlled—1 kHz by default—and can be reconfigured to other values.
+This project uses the STM32C011J6Mx and implements a specialized power supply. It accepts either AC mains or DC input, rectifies it to a DC bus, and generates a square-wave output derived from that bus (approximately equal to the bus/rectified voltage). The output frequency is firmware-controlled—1 kHz by default—and can be reconfigured to other values.
 
 **Input ranges**
 - DC: 32–400 VDC  
